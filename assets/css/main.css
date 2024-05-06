@@ -2097,9 +2097,10 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		position: absolute;
+		position: fixed;
+		z-index: 1000;
 		display: block;
-		top: 2.5em;
+		top: -0.2em;
 		left: 0;
 		width: 100%;
 		text-align: center;
@@ -2108,8 +2109,9 @@ input, select, textarea {
 		#nav > ul {
 			display: inline-block;
 			border-radius: 0.35em;
-			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.5);
 			padding: 0 1.5em 0 1.5em;
+			background-color: #2f333b;
 		}
 
 			#nav > ul > li {
