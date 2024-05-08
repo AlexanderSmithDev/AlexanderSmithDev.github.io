@@ -1607,7 +1607,8 @@ input, select, textarea {
 
 		.image.centered {
 			display: block;
-			margin: 0 0 2em 0;
+			margin: auto;
+			margin-bottom: 1em;
 		}
 
 			.image.centered img {
