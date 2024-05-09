@@ -230,6 +230,11 @@ input, select, textarea {
 		.row.gtr-uniform > * > :last-child {
 			margin-bottom: 0;
 		}
+		
+		.row.bordered {
+			border: solid 1px #aaa;
+			margin-bottom: 1em;
+		}
 
 		.row.aln-left {
 			justify-content: flex-start;
