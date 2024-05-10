@@ -1684,6 +1684,7 @@ input, select, textarea {
 		.button.style1 {
 			background: #3276e9 url("images/overlay.png");
 			color: #fff;
+			margin-bottom: 1em;
 		}
 
 			input[type="button"].style1:hover,
